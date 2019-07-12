@@ -1,0 +1,120 @@
+/* background */
+.modal{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 2%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* conteúdo do modal */
+.modal-content{
+    background-image: url(../imgs/back2.jpg);
+    background-size: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* botão de fechar */
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#well-dados{
+    transform: translateY(25%);
+}
+
+.center-class{
+    text-align: center;
+}
+
+#row-mtdPagamentos{
+    display: inline-flex;
+    width: 65%;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    border: 1px solid #e3e3e3;
+}
+
+.left{
+    left: 0;
+    background-color: #f5f5f5;
+}
+
+.right{
+    right: 0;
+    background-color: #f5f5f5;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.row-valores{
+    margin-top: 2%;
+}
+
+#div-total{
+    float: left;
+}
+
+#div-troco, div[name="campo-nome"]{
+    float: right;
+}
+
+#div-recebido{
+    margin-left: 12%;
+    margin-right: 13%;
+}
+
+#label-pagamento{
+    margin-bottom: 0%;
+}
+
+div[name="campo-cpf"]{
+    margin-right: 0%;
+    margin-left: 6%;
+}
+
+.botoes{
+    float: right;
+}
+
+#div-cancelar{
+    width: 13%;
+}
+
+#div-finalizar{
+    width: 0%;
+    margin-right: 8%;
+}
